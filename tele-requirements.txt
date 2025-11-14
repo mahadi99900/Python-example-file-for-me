@@ -1,0 +1,5 @@
+pkg update -y
+pkg install python -y
+pip install python-telegram-bot==20.0
+pip install yt-dlp
+termux-setup-storage 

@@ -1,0 +1,11 @@
+with open("hello.txt","r") as f:
+    line1 = f.readline()
+    print(f"{line1}",end="")
+    line2 = f.readline()
+    print(f"{line2}",end="")
+    line3 = f.readline()
+    print(f"{line3}",end="")
+    line4 = f.readline()
+    print(f"{line4}",end="")
+    line5 = f.readline()
+    print(f"{line5}",end="")
