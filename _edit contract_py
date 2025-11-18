@@ -1,0 +1,16 @@
+contract = {}
+
+while True:
+    choice = input("1.add contract\n2.search contract\n3.display contract\n4.edit contract\n5.delete contract\n6.exit\nenter your point; ")
+    if choice == "1":
+        name = input("enter your contract name; ")
+        number = input("enter your contract number; ")
+        contract[name] = number 
+        print(f"your contract saved by this name {name} and this number {number}")
+    elif choice == "2":
+        contractName = input("search your contract name; ")
+        if contractName in contract:
+            print(f"{contractName} contract number is {contract[contractName]}")
+        else:
+            print("Not founded")  
+              
